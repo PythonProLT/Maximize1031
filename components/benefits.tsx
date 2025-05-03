@@ -77,10 +77,14 @@ export default function Benefits() {
                     <div className="text-right">$300,000</div>
                     <div>Capital Gains:</div>
                     <div className="text-right">$200,000</div>
-                    <div>Taxes (20%):</div>
-                    <div className="text-right">-$40,000</div>
+                    <div>Federal Taxes (15-20%):</div>
+                    <div className="text-right">-$30,000 to $40,000</div>
+                    <div>Potential NIIT (3.8%):</div>
+                    <div className="text-right">-$7,600</div>
+                    <div>State Taxes (varies):</div>
+                    <div className="text-right">-$0 to $20,000</div>
                     <div className="font-semibold">Reinvestment Power:</div>
-                    <div className="text-right font-semibold">$460,000</div>
+                    <div className="text-right font-semibold">$432,400 to $470,000</div>
                   </div>
                 </div>
 
@@ -94,10 +98,11 @@ export default function Benefits() {
                     <div>Capital Gains:</div>
                     <div className="text-right">$200,000</div>
                     <div>Taxes Deferred:</div>
-                    <div className="text-right">$40,000</div>
+                    <div className="text-right">$37,600 to $67,600*</div>
                     <div className="font-semibold">Reinvestment Power:</div>
                     <div className="text-right font-semibold">$500,000</div>
                   </div>
+                  <p className="mt-2 text-xs text-teal-100">* Assuming full tax deferral with no boot received</p>
                 </div>
               </div>
             </div>
@@ -128,7 +133,7 @@ export default function Benefits() {
                   <div>
                     <span className="font-semibold text-teal-900">Secure Fund Handling:</span>
                     <p className="text-gray-600">
-                      Your exchange proceeds are held in segregated, FDIC-insured accounts with detailed tracking.
+                      Your exchange proceeds are held in segregated accounts with detailed tracking.
                     </p>
                   </div>
                 </li>
@@ -157,6 +162,15 @@ export default function Benefits() {
                   </div>
                 </li>
               </ul>
+
+              <div className="mt-6 rounded-lg border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
+                <p className="font-semibold">Important Tax Note:</p>
+                <p>
+                  Tax rates vary based on your income level and state of residence. Any cash or non-like-kind property
+                  received ("boot") will be taxable even in a 1031 exchange. Always consult with a tax professional
+                  about your specific situation.
+                </p>
+              </div>
             </div>
           </div>
         </div>

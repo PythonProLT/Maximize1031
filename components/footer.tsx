@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Facebook, Twitter, Instagram, Linkedin, Mail } from 'lucide-react'
+import { Facebook, Twitter, Instagram, Linkedin, Mail } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -9,7 +9,8 @@ export default function Footer() {
           <div>
             <h3 className="mb-4 text-xl font-bold">Maximize 1031</h3>
             <p className="mb-4 text-teal-100">
-              A qualified intermediary service specializing in 1031 exchanges. We help property owners defer taxes and build wealth through compliant exchanges.
+              A qualified intermediary service specializing in 1031 exchanges. We help property owners defer taxes and
+              build wealth through compliant exchanges.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="hover:text-teal-300">
@@ -104,9 +105,19 @@ export default function Footer() {
           </div>
 
           <div>
-            <h3 className="mb-4 text-xl font-bold">Newsletter</h3>
+            <h3 className="mb-4 text-xl font-bold">Contact Us</h3>
+            <p className="mb-2 text-teal-100">
+              <strong>Phone:</strong> (310) - 980 - 4902
+            </p>
+            <p className="mb-2 text-teal-100">
+              <strong>Email:</strong> info@maximize1031.com
+            </p>
             <p className="mb-4 text-teal-100">
-              Subscribe to our newsletter for the latest updates on 1031 exchanges, tax law changes, and investment opportunities.
+              <strong>Address:</strong>
+              <br />
+              2108 N ST STE N
+              <br />
+              Sacramento, CA 95816
             </p>
             <div className="flex">
               <input
@@ -141,7 +152,9 @@ export default function Footer() {
           </div>
           <div className="mt-4 text-xs text-teal-400">
             <p>
-              Maximize 1031 is not a tax advisor. This material has been prepared for informational purposes only, and is not intended to provide, and should not be relied on for, tax, legal, or accounting advice. Consult your own tax, legal, and accounting advisors before engaging in any transaction.
+              Maximize 1031 is not a tax advisor. This material has been prepared for informational purposes only, and
+              is not intended to provide, and should not be relied on for, tax, legal, or accounting advice. Consult
+              your own tax, legal, and accounting advisors before engaging in any transaction.
             </p>
           </div>
         </div>

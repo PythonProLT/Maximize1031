@@ -24,25 +24,37 @@ export default function Faq() {
       id: "item-3",
       question: "What types of properties qualify for a 1031 exchange?",
       answer:
-        "Properties held for investment or business purposes qualify for 1031 exchanges. This includes rental properties, commercial real estate, land, and certain business assets. Your primary residence does not qualify for a 1031 exchange.",
+        "Properties held for investment or business purposes qualify for 1031 exchanges. This includes rental properties, commercial real estate, land, and certain business assets. Your primary residence does not qualify for a 1031 exchange. Vacation homes have special rules and may qualify only if they've been primarily held as rental properties.",
     },
     {
       id: "item-4",
       question: "How are exchange funds protected?",
       answer:
-        "We hold all exchange funds in segregated, FDIC-insured accounts. We maintain detailed tracking of your funds and provide regular statements for transparency and security.",
+        "We hold exchange funds in segregated accounts at established financial institutions. We maintain detailed tracking of your funds and provide regular statements for transparency and security. Ask about the specific financial institutions we work with and their insurance coverage for your exchange funds.",
     },
     {
       id: "item-5",
       question: "What happens if I don't use all my exchange funds?",
       answer:
-        "Any exchange funds not used to acquire replacement property will be returned to you at the end of the exchange period. This unused portion, known as 'boot,' will be subject to capital gains tax. We can discuss strategies to minimize or eliminate boot when possible.",
+        "Any exchange funds not used to acquire replacement property will be returned to you at the end of the exchange period. This unused portion, known as 'boot,' will be subject to capital gains tax. Boot can also include mortgage relief or other non-like-kind property received in the exchange. We can discuss strategies to minimize or eliminate boot when possible.",
     },
     {
       id: "item-6",
       question: "How much does a 1031 exchange service cost?",
       answer:
         "Our exchange service includes documentation preparation, fund handling, and coordination services throughout your 180-day exchange period. We offer transparent pricing with no hidden fees. Contact us for a specific quote based on your exchange needs.",
+    },
+    {
+      id: "item-7",
+      question: "What are the rules for identifying replacement properties?",
+      answer:
+        "The IRS provides three rules for identifying replacement properties: 1) Three-Property Rule: Identify up to three properties of any value. 2) 200% Rule: Identify any number of properties as long as their total value doesn't exceed 200% of the sold property's value. 3) 95% Rule: Identify any number of properties of any value, but you must acquire properties totaling at least 95% of the total value of all identified properties.",
+    },
+    {
+      id: "item-8",
+      question: "Are state taxes also deferred in a 1031 exchange?",
+      answer:
+        "While federal capital gains taxes are deferred in a properly executed 1031 exchange, state tax treatment varies. Many states follow federal rules and allow deferral, but some states have their own requirements or may not recognize 1031 exchanges. We recommend consulting with a tax professional about your specific state tax situation.",
     },
   ]
 

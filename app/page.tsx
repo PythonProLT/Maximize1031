@@ -1,10 +1,11 @@
 import Header from "@/components/header"
 import Hero from "@/components/hero"
+import Benefits from "@/components/benefits"
+import WhatIs1031 from "@/components/what-is-1031"
 import AboutUs from "@/components/about-us"
 import HowItWorks from "@/components/how-it-works"
-import Benefits from "@/components/benefits"
-import ContactSection from "@/components/contact-section"
 import Faq from "@/components/faq"
+import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="min-h-screen">
         <Hero />
         <Benefits />
+        <WhatIs1031 />
         <AboutUs />
         <HowItWorks />
         <Faq />

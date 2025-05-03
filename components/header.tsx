@@ -39,7 +39,7 @@ export default function Header() {
 
         <div className="flex items-center gap-4">
           <Link
-            href="#contact"
+            href="/get-started"
             className="hidden rounded-md bg-teal-600 px-4 py-2 text-sm font-medium text-white hover:bg-teal-700 md:inline-flex"
           >
             Get Started

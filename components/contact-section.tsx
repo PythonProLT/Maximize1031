@@ -3,7 +3,7 @@
 import type React from "react"
 
 import { useState } from "react"
-import { Mail, Phone, MapPin, Send } from 'lucide-react'
+import { Mail, Phone, MapPin, Send } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -75,8 +75,8 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-teal-900">Phone</h4>
-                    <p className="text-gray-600">(800) 555-1031</p>
-                    <p className="text-gray-600">Monday - Friday, 9am - 5pm EST</p>
+                    <p className="text-gray-600">(310) - 980 - 4902</p>
+                    <p className="text-gray-600">Monday - Friday, 9am - 5pm PST</p>
                   </div>
                 </div>
 
@@ -86,8 +86,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-teal-900">Email</h4>
-                    <p className="text-gray-600">exchanges@maximize1031.com</p>
-                    <p className="text-gray-600">support@maximize1031.com</p>
+                    <p className="text-gray-600">info@maximize1031.com</p>
                   </div>
                 </div>
 
@@ -97,18 +96,10 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-teal-900">Office</h4>
-                    <p className="text-gray-600">123 Financial District</p>
-                    <p className="text-gray-600">New York, NY 10004</p>
+                    <p className="text-gray-600">2108 N ST STE N</p>
+                    <p className="text-gray-600">Sacramento, CA 95816</p>
                   </div>
                 </div>
-              </div>
-
-              <div className="mt-8 rounded-lg bg-teal-800 p-6 text-white">
-                <h4 className="mb-3 text-xl font-semibold">Schedule a Consultation</h4>
-                <p className="mb-4 text-teal-100">
-                  Book a free 30-minute consultation with one of our exchange specialists to discuss your specific situation.
-                </p>
-                <Button className="w-full bg-white text-teal-800 hover:bg-teal-100">Book Appointment</Button>
               </div>
             </div>
           </div>
