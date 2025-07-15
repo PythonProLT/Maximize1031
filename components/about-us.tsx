@@ -7,7 +7,7 @@ export default function AboutUs() {
         <div className="mx-auto max-w-3xl text-center">
           <h2 className="mb-4 text-3xl font-bold tracking-tight text-teal-900 sm:text-4xl">About Maximize 1031</h2>
           <p className="mb-10 text-lg text-gray-600">
-            We are a qualified intermediary service specializing in facilitating 1031 exchanges to help property owners
+            I am a qualified intermediary service specializing in facilitating 1031 exchanges to help property owners
             defer capital gains taxes.
           </p>
         </div>
